@@ -1,0 +1,186 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #ffffff;
+	color: #000000;
+	padding: 0px;
+    display: flex;
+}
+
+
+
+
+nav ul {
+	list-style-type: none;
+	margin-top: 60px;
+	padding: 0;
+    display: flex;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li a {
+	color: #000000;
+	text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    padding: 0 20px;
+}
+
+main {
+	margin: 2px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+section h2 {
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+section ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+section li {
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+section li img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+section li h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+section li p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+section li a {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #9f9d9d;
+	color: #fff;
+	padding: 2px;
+	text-align: center;
+}
+
+main div {
+	max-width: 100%;
+	height: 80vh;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+}
+
+main div img {
+	max-width: 100%;
+	height: 200%;
+	object-fit: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+header img{
+    width: 130px;
+    height: 130px;
+}
+.featured-destinations {
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+.featured-destinations h2 {
+  margin-bottom: 2rem;
+}
+
+.card-slider-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.card-slider {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  transition: transform 1s ease-in-out;
+}
+
+.card {
+  flex: 0 0 calc(100% / 3);
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: transform 1s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 1rem;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.container h2{
+    padding-top: 2rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+

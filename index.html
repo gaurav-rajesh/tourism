@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mysuru Tourism</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo" width="50">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#dest">Destinations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+	</header>
+	<main>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500" data-wrap="true">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="image1.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="image2.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="image3.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<div class="container" id="dest">
+            <h2 class="text-center mb-4">Things to do</h2>
+            <div id="card-slider" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img class="card-img-top" src="image2.jpg" alt="Destination 1">
+                        <div class="card-body">
+                          <h5 class="card-title">Mysuru Palace</h5>
+                          <p class="card-text">Constructed in Indo-Saracenic style, the magnificent Mysuru Palace also known as Amba Vilas is the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysuru.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img class="card-img-top" src="image3.jpg" alt="Destination 2">
+                        <div class="card-body">
+                          <h5 class="card-title">Lalit Mahal Palace</h5>
+                          <p class="card-text">The second largest palace in Mysuru, located near the Chamundi Hills. Built in 1921, Lalit Mahal Palace is now a heritage hotel.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img class="card-img-top" src="destination-3.jpg" alt="Destination 3">
+                        <div class="card-body">
+                          <h5 class="card-title">Mysuru Zoo</h5>
+                          <p class="card-text">The Mysuru Zoo or the Sri Chamarajendra Zoological Gardens is the most popular zoo in Karnataka and is one of the oldest zoos in the country, established in 1892.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img class="card-img-top" src="destination-4.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Chamundi Temple</h5>
+                            <p class="card-text"> Located 12 km from Mysuru, the Chamundi Hills is home to the Goddess Chamundeshwari, the patron deity of the Mysuru Royal Family.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img class="card-img-top" src="destination-5.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Brindavan Gardens</h5>
+                            <p class="card-text">Spread across an area of 60 acres, Brindavan Gardens is adjacent to India's first irrigation dam - the Krishna Raja Sagara Dam, across the river Cauvery.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card">
+                          <img class="card-img-top" src="destination-6.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">The Rail Museum</h5>
+                            <p class="card-text">The Rail Museum was setup in 1979 and provides a fascinating insight into the history and growth of the railways in India.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#card-slider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#card-slider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+	</main>
+	<footer>
+		<p>&copy;Gaurav's Mysuru Tourism. All rights reserved.</p>
+	</footer>
+</body>
+</html>
